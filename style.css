@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', cursive;
+}
+
+/* styling the first page */
+
+.first-page{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.head{
+    background-color: #00308F;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+.navigation-bar ul{
+    display: flex;
+    margin-top: 15px;
+}
+.navigation-bar ul li{
+    list-style: none;
+    padding-left: 20px;
+    color: azure;
+}
+.email-phone{
+    display: flex;
+   justify-content: space-around;
+   color: white;
+   margin-top: 3px;
+}
+.landing-page{
+    background-image: url('/images/Layer\ 9\ copy.png');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.airport-transfer{
+    background-color: #00308fa7;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 735px;
+    padding: 20px;
+    
+}
+
+
+/* styling the second page  */
+
+.second-page-centered-box{
+    color: #00308F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ 
+}
+.welcome-to-airport{
+    width: 550px;
+}
+.form{
+    background-color: #00308F;
+    color: white;
+    height:500px ;
+    margin-top:70px ;
+    margin-left: 15px;
+    width: 415px;
+}
+.top-tier-form{
+    display: flex;
+    margin-top: 15px;
+}
+.enter-journey-details{
+    background-color: #002D62;
+    display: flex;
+    padding: 15px 15px;
+    margin-left: 6px;
+    
+}
+.get-best-price{
+    background-color: #002D62;
+     margin-left: 7px;
+    display: flex;
+    padding: 15px 35px;
+}
+.icon-space{
+    margin-right: 5px ;
+}
+
+.checkbox{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.dropdowns{
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.dropdown-one{
+    display: flex;
+    flex-direction: column;
+    
+}
+.dropdown-two{
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+}
+#airport{
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+.date-time{
+    display: flex;
+    margin-top: 28px;
+    justify-content: space-around;
+}
+.date{
+    background-color: white;
+    padding: 6px 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    border-radius: 2px;
+
+}
+.time{
+    
+        background-color: white;
+        padding: 6px 40px;
+        color: black;
+        display: flex;
+        margin-right: 30px;
+        margin-left: 20px;
+        border-radius: 2px;
+
+}
+.calender{
+    margin-left: 50px;
+}
+.checkbox-two{
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+.label-2{
+    margin-left: 20px;
+}
+.checkbox-three{
+    margin-top: 35px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 17px;
+}
+.sub-btn{
+    padding: 5px 20px;
+    background-color: #002D62;
+    color: white;
+    border-radius: 3px;
+}
+
+/* third-page styling */
+
+.third-page{
+    height: 100vh;
+    /* margin-top: 10px; */
+    background-color:#002D62;
+}
+.third-page-centered{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;   
+    flex-direction: column;
+    width: 1100px;
+    margin-left: 100px;
+}
+.third-heading{
+    text-align: center;
+     font-size: 20px;
+     color: goldenrod; 
+     margin-top: 70px;
+
+}
+.offers{
+    display: flex;
+
+}
+.sub-heading{
+    color: goldenrod;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.offer-description{
+    margin-top: 12px;
+    font-weight:200;
+    font-size: 14px;
+    color: antiquewhite;
+}
+.submit-third .submit .submit-btn .sub-btn{
+    margin-top: -100px;
+    background-color: goldenrod;
+    border: none;
+   margin-bottom: 30px;
+   cursor: pointer;
+
+}
+
+/* fourth-page-styling */
+
+.fourth-page{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.fourth-top-tier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+.fourth-heading-one{
+    color: goldenrod;
+}
+.fourth-sub-heading{
+    color: #002D62;
+}
+.fourth-description{
+    color: #0541b9;
+    font-weight: 100;
+    font-size: 14px;
+}
+.fourth-cars{
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-boxs{
+      display: flex;
+      justify-content: space-between;
+}
+.box-one{
+    width: 260px;
+    border: 1px solid black;
+    height: 200px;
+    margin-left: -35px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box-two{
+    width: 260px;
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}.box-three{
+    width: 260px;
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box-head
+{
+   margin-bottom: -30px;
+    padding: 10px 0px;
+    color: goldenrod;
+    text-align: center;
+}
+.box-desc{
+ text-align: center;
+ font-size: 14px;
+ /* margin-top: 16px; */
+}
+.box-btn{
+  text-align: center;
+  border: none;
+  
+}
+.box-btn button{
+    padding: 4px 12px;
+    margin-bottom: 3px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+}
